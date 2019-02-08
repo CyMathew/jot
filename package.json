@@ -1,0 +1,23 @@
+{
+  "name": "jot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CyMathew/jot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CyMathew/jot/issues"
+  },
+  "homepage": "https://github.com/CyMathew/jot#readme",
+  "dependencies": {
+    "electron": "^4.0.4"
+  }
+}
