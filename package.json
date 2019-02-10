@@ -2,9 +2,9 @@
   "name": "jot",
   "version": "1.0.0",
   "description": "",
-  "main": "main.js",
+  "main": "example.js",
   "scripts": {
-    "start": "electron ."
+    "watch": "webpack --mode=development --watch ."
   },
   "repository": {
     "type": "git",
@@ -17,7 +17,17 @@
     "url": "https://github.com/CyMathew/jot/issues"
   },
   "homepage": "https://github.com/CyMathew/jot#readme",
-  "dependencies": {
-    "electron": "^4.0.4"
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.3.1",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.5",
+    "css-loader": "^2.1.0",
+    "react": "^16.8.1",
+    "react-dom": "^16.8.1",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.29.3",
+    "webpack-cli": "^3.2.3"
   }
 }
